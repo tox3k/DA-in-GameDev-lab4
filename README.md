@@ -67,12 +67,8 @@
     ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab4/blob/main/scrinshots/step3.png)  
   
 Вывод XOR:  
- - Проведя тесты, я выяснил, что сколько бы эпох мы не ставили, он не будет выводит правильные результаты тестов, потому что XOR - это не линейная функция, а персептрон работает только с линейными. Ниже я прикрепил скриншоты обучения персептрона на 1, 4, 8 эпохах. Если запускать несколько раз, то можно заметить TOTAL ERROR либо максимальный после первой эпохи, либо увеличивается после каждой эпохи.  
-    1 эпоха    
-    ![Image alt](https://github.com/prepref/UrFU-GameAnalysis/raw/main/github-screenshots/workshop4/1epochXOR.png)  
-    4 эпохи   
-    ![Image alt](https://github.com/prepref/UrFU-GameAnalysis/raw/main/github-screenshots/workshop4/4epochXOR.png)  
-    8 эпох:    
+ - Во-первых XOR - не линейная функция, а значит сколько бы эпох мы не поставили, модель не сможет обучиться.
+    20 эпох:    
     ![Image alt](https://github.com/prepref/UrFU-GameAnalysis/raw/main/github-screenshots/workshop4/8epochXOR.png)  
   
 ## Задание 2
