@@ -69,7 +69,7 @@
 Вывод XOR:  
  - Во-первых XOR - не линейная функция, а значит сколько бы эпох мы не поставили, модель не сможет обучиться. Работа некорректна модели для XOR.    
     20 эпох:    
-    ![Image alt](https://github.com/prepref/UrFU-GameAnalysis/raw/main/github-screenshots/workshop4/8epochXOR.png)  
+    ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab4/blob/main/scrinshots/step4.png)  
   
 ## Задание 2
 ### Построить графики зависимости количества эпох от ошибки  обучения. Указать от чего зависит необходимое количество эпох обучения.
@@ -78,13 +78,13 @@
   
 Ссылка на таблицу:  
 https://docs.google.com/spreadsheets/d/1pGDUL2lGgpKdy2XsjhIDDtVGRwXRlacd7dkszPThEGo/edit?hl=ru#gid=0  
-![Image alt](https://github.com/prepref/UrFU-GameAnalysis/raw/main/github-screenshots/workshop4/tab-OR.png)  
+![Image alt](https://github.com/tox3k/DA-in-GameDev-lab4/blob/main/scrinshots/tab-OR.png)   
 Вывод:  
-![Image alt](https://github.com/prepref/UrFU-GameAnalysis/raw/main/github-screenshots/workshop4/tab-AND.png)  
+![Image alt](https://github.com/tox3k/DA-in-GameDev-lab4/blob/main/scrinshots/tab-AND.png)   
 Вывод:  
-![Image alt](https://github.com/prepref/UrFU-GameAnalysis/raw/main/github-screenshots/workshop4/tab-NAND.png)  
+![Image alt](https://github.com/tox3k/DA-in-GameDev-lab4/blob/main/scrinshots/tab-NAND.png)    
 Вывод:  
-![Image alt](https://github.com/prepref/UrFU-GameAnalysis/raw/main/github-screenshots/workshop4/tab-XOR.png)      
+![Image alt](https://github.com/tox3k/DA-in-GameDev-lab4/blob/main/scrinshots/tab-XOR.png)        
 Вывод:  
 
 ## Задание 3
