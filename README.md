@@ -78,13 +78,13 @@
   
 Ссылка на таблицу:  
 https://docs.google.com/spreadsheets/d/1pGDUL2lGgpKdy2XsjhIDDtVGRwXRlacd7dkszPThEGo/edit?hl=ru#gid=0  
-![Image alt](https://github.com/prepref/UrFU-GameAnalysis/raw/main/github-screenshots/workshop4/8epochXOR.png)  
+![Image alt](https://github.com/prepref/UrFU-GameAnalysis/raw/main/github-screenshots/workshop4/tab-OR.png)  
 Вывод:  
-![Image alt](https://github.com/prepref/UrFU-GameAnalysis/raw/main/github-screenshots/workshop4/8epochXOR.png)  
+![Image alt](https://github.com/prepref/UrFU-GameAnalysis/raw/main/github-screenshots/workshop4/tab-AND.png)  
 Вывод:  
-![Image alt](https://github.com/prepref/UrFU-GameAnalysis/raw/main/github-screenshots/workshop4/8epochXOR.png)  
+![Image alt](https://github.com/prepref/UrFU-GameAnalysis/raw/main/github-screenshots/workshop4/tab-NAND.png)  
 Вывод:  
-![Image alt](https://github.com/prepref/UrFU-GameAnalysis/raw/main/github-screenshots/workshop4/8epochXOR.png)      
+![Image alt](https://github.com/prepref/UrFU-GameAnalysis/raw/main/github-screenshots/workshop4/tab-XOR.png)      
 Вывод:  
 
 ## Задание 3
