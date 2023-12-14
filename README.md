@@ -63,15 +63,8 @@
     ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab4/blob/main/scrinshots/step2.png)    
   
 Вывод NAND:  
-  - Проведя тесты, я выяснил, что 8 и более эпох для обучения персептрона достаточно, чтобы он безошибочно выводил правильные результаты тестов. Ниже я прикрепил скриншоты обучения персептрона на 1, 4, 6, 8 эпохах.  
-    1 эпоха    
-    ![Image alt](https://github.com/prepref/UrFU-GameAnalysis/raw/main/github-screenshots/workshop4/1epochNAND.png)  
-    4 эпохи  
-    ![Image alt](https://github.com/prepref/UrFU-GameAnalysis/raw/main/github-screenshots/workshop4/4epochNAND.png)  
-    6 эпох: неоднозначный результат, требуется больше эпох    
-    ![Image alt](https://github.com/prepref/UrFU-GameAnalysis/raw/main/github-screenshots/workshop4/6epochNAND.png)  
-    8 эпох  
-    ![Image alt](https://github.com/prepref/UrFU-GameAnalysis/raw/main/github-screenshots/workshop4/8epochNAND.png)   
+  - Поэкспериментировав я выяснил, что только начиная с 9 эпохи модель начинает +- обучаться. Только с 10 эпохи модель обучается полностью.    
+    ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab4/blob/main/scrinshots/step3.png)  
   
 Вывод XOR:  
  - Проведя тесты, я выяснил, что сколько бы эпох мы не ставили, он не будет выводит правильные результаты тестов, потому что XOR - это не линейная функция, а персептрон работает только с линейными. Ниже я прикрепил скриншоты обучения персептрона на 1, 4, 8 эпохах. Если запускать несколько раз, то можно заметить TOTAL ERROR либо максимальный после первой эпохи, либо увеличивается после каждой эпохи.  
