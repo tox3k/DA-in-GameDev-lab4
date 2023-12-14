@@ -76,14 +76,16 @@
 Требуемое количество периодов обучения зависит от веса и смещения. То есть вы должны выбрать такое количество тренировок, чтобы ошибки были максимально сведены к минимуму,
 Затем персептрон завершает свое обучение. 
   
-Ссылка на таблицу   https://docs.google.com/spreadsheets/d/1NkxHI_CfUrCAs_nFhNSSOnMNH0bhel2zXnRblwwoRsY/edit#gid=0  
-![Image alt](https://github.com/prepref/UrFU-GameAnalysis/raw/main/github-screenshots/workshop4/epoch_gtable.png)
-Вывод:
-- TOTAL ERROR(XOR) среднее с каждой эпохой увеличивается, достигает максимальной ошибки обучения и не меняется
-- TOTAL ERROR(NAND) среднее c каждой эпохой уменьшается и достигиает значения 0 примерно к 9 эпохе. То есть персептрону будет достаточно обучения на 9 и более эпох, чтобы он уверенно выводил правильнык результаты.
-При этом если мы уже видим, как на графике, что на 9 эпохе ошибка обучения равна нулю, то можно закончить обучение, иначе персептрон будет переобучаться
-- TOTAL ERROR(AND) среднее c каждой эпохой уменьшается и достигиает значения 0 примерно к 10 эпохе. То есть персептрону будет достаточно обучения на 10 и более эпох, чтобы он уверенно выводил правильнык рзультаты. Также как и с AND если мы уже видим, как на графике, что на 10 эпохе ошибка обучния равна нулю, то можно закончить обучение, иначе персептрон будет переобучаться
-- TOTAL ERROR(OR) среднее c каждой эпохой уменьшается и достигиает значения 0 примерно к 4 эпохе. То есть 10 эпох для OR слишком много, персептрон просто запоминает тренировочные данные, то есть переобучается. По моему мнению оптимальное количество эпох равно 4-6 для OR в зависимости от результатов обучения перспетрона
+Ссылка на таблицу:  
+https://docs.google.com/spreadsheets/d/1pGDUL2lGgpKdy2XsjhIDDtVGRwXRlacd7dkszPThEGo/edit?hl=ru#gid=0  
+![Image alt](https://github.com/prepref/UrFU-GameAnalysis/raw/main/github-screenshots/workshop4/8epochXOR.png)  
+Вывод:  
+![Image alt](https://github.com/prepref/UrFU-GameAnalysis/raw/main/github-screenshots/workshop4/8epochXOR.png)  
+Вывод:  
+![Image alt](https://github.com/prepref/UrFU-GameAnalysis/raw/main/github-screenshots/workshop4/8epochXOR.png)  
+Вывод:  
+![Image alt](https://github.com/prepref/UrFU-GameAnalysis/raw/main/github-screenshots/workshop4/8epochXOR.png)      
+Вывод:  
 
 ## Задание 3
 ### Построить визуальную модель работы перцептрона на сцене Unity.  
