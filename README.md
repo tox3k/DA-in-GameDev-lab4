@@ -88,11 +88,11 @@
 ## Задание 3
 ### Построить визуальную модель работы перцептрона на сцене Unity.  
   При успешном обучении модели и при прохождение тестов сфера и пол становятся зеленым цветом, соответсвенно если обучение не успешно, сфера и пол становятся красным цветом.
-  Как мы и говорил раньше модель успешно обучается для OR, AND, NAND, требуется лишь разное число эпох, но результат один для всех
-  ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab4/blob/main/scrinshots/other.png)    
-  Так как модель не может обучиться на XOR, то мы видим на гиф один  из результатов тестов. 
-  ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab4/blob/main/scrinshots/XOR.png)    
-  Также в скрипт Perceptron.cs  я добавил такой код.
+  Как мы и говорил раньше модель успешно обучается для OR, AND, NAND, требуется лишь разное число эпох, но результат один для всех.  
+  ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab4/blob/main/scrinshots/other.gif)      
+  Так как модель не может обучиться на XOR, то мы видим на гиф один  из результатов тестов.   
+  ![Image alt](https://github.com/tox3k/DA-in-GameDev-lab4/blob/main/scrinshots/XOR.gif)      
+  Также в скрипт Perceptron.cs  я добавил такой код.  
   ```cs
   private void OnCollisionEnter(Collision collision)
     {
